@@ -1,3 +1,4 @@
-$ repo init -u git://github.com/ParanoidAndroid-armv6/android.git -b cm-10.1
 
+$ repo init -u git://github.com/ParanoidAndroid-armv6/android.git -b cm-10.1
 $ repo sync
+
