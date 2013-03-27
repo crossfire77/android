@@ -16,7 +16,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="androidarmv6/android_build">
+  <project path="build" name="ParanoidAndroid-armv6/android_build" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -385,7 +385,7 @@
       <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
-  <project path="device/samsung/gio" name="androidarmv6/android_device_samsung_gio" revision="cm-10.1"/>
+  <project path="device/samsung/gio" name="ParanoidAndroid-armv6/android_device_samsung_gio" revision="jellybean" />
   <project path="device/samsung/msm7x27-common" name="androidarmv6/android_device_samsung_msm7x27-common" revision="cm-10.1"/>
   <project path="device/qcom/msm7x27" name="androidarmv6/android_device_qcom_msm7x27" revision="cm-10.1" />
   <project path="kernel/samsung/msm7x27" name="OldDroid/android_kernel_samsung_msm7x27" revision="cm-10.1" />
