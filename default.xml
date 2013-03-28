@@ -220,7 +220,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="ParanoidAndroid/android_frameworks_opt_telephony" remote="github" revision="jellybean"  />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="github" revision="cm-10.1"  />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="ParanoidAndroid-armv6/android_frameworks_rs" remote="github" revision="pa-cm-10.1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -368,7 +368,6 @@
 
   <!-- Device Shit -->
   <project path="device/samsung/gio" name="ParanoidAndroid-armv6/android_device_samsung_gio" remote="github" revision="jellybean" />
-  <project path="device/samsung/msm7x27-common" name="androidarmv6/android_device_samsung_msm7x27-common" remote="github" revision="cm-10.1" />
   <project path="device/qcom/msm7x27" name="ParanoidAndroid-armv6/android_device_qcom_msm7x27" remote="github" revision="cm-10.1" />
   <project path="kernel/samsung/msm7x27" name="OldDroid/android_kernel_samsung_msm7x27" remote="github" revision="cm-10.1" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" remote="github" revision="cm-10.1" />
