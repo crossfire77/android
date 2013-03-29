@@ -267,6 +267,7 @@
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="ParanoidAndroid/android_packages_apps_Contacts" remote="github" revision="jellybean" />
   <project path="packages/apps/DeskClock" name="ParanoidAndroid/android_packages_apps_DeskClock" remote="github" revision="jellybean" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Email2" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" remote="github" revision="cm-10.1" />
