@@ -373,5 +373,6 @@
   <project path="kernel/samsung/msm7x27" name="OldDroid/android_kernel_samsung_msm7x27" remote="github" revision="cm-10.1" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" remote="github" revision="cm-10.1" />
   <project path="vendor/samsung" name="androidarmv6/android_vendor_samsung" remote="github" revision="cm-10.1" />
+  <project path="vendor/google" name="ParanoidAndroid-armv6/android_vendor_google" remote="github" revision="jellybean" />
 
 </manifest>
