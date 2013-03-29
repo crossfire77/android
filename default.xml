@@ -368,6 +368,7 @@
 
   <!-- Device Shit -->
   <project path="device/samsung/gio" name="ParanoidAndroid-armv6/android_device_samsung_gio" remote="github" revision="jellybean" />
+  <project path="device/samsung/cooper" name="ParanoidAndroid-armv6/android_device_samsung_cooper" remote="github" revision="jellybean" />
   <project path="device/qcom/msm7x27" name="ParanoidAndroid-armv6/android_device_qcom_msm7x27" remote="github" revision="cm-10.1" />
   <project path="kernel/samsung/msm7x27" name="OldDroid/android_kernel_samsung_msm7x27" remote="github" revision="cm-10.1" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" remote="github" revision="cm-10.1" />
