@@ -1,4 +1,4 @@
-  $ repo init -u git://github.com/ParanoidAndroid-armv6/android.git -b jellybean
+  $ repo init -u git://github.com/OpenMaclaw/android.git -b jellybean
 
   $ repo sync
 
