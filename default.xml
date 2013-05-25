@@ -25,7 +25,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="OpenMaclaw/android_build" remote="github" revision="cm-10.1" >
+  <project path="build" name="OpenMaclaw/android_build" remote="github" revision="jellybean" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" remote="github" revision="cm-10.1"/>
@@ -283,7 +283,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/ParanoidWallpapers" name="ParanoidAndroid/android_packages_apps_ParanoidWallpapers" remote="github" revision="jellybean" />
+  <project path="packages/apps/ParanoidWallpapers" name="OpenMaclaw/android_packages_apps_ParanoidWallpapers" remote="github" revision="jellybean" />
   <project path="packages/apps/Phone" name="ParanoidAndroid/android_packages_apps_Phone" remote="github" revision="jellybean" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
@@ -369,13 +369,10 @@
 
   <project path="android" name="OpenMaclaw/android" remote="github" revision="jellybean"/>
 
-  <!-- Device Shit -->
+  <!-- Device Sources -->
   <project path="device/samsung/gio" name="ParanoidAndroid-armv6/android_device_samsung_gio" remote="github" revision="jellybean" />
-  <project path="device/samsung/cooper" name="ParanoidAndroid-armv6/android_device_samsung_cooper" remote="github" revision="jellybean" />
-  <project path="device/qcom/msm7x27" name="ParanoidAndroid-armv6/android_device_qcom_msm7x27" remote="github" revision="cm-10.1" />
+  <project path="device/qcom/msm7x27" name="OpenMaclaw/android_device_qcom_msm7x27" remote="github" revision="cm-10.1" />
   <project path="kernel/samsung/msm7x27" name="androidarmv6/android_kernel_samsung_msm7x27" remote="github" revision="cm-10.1" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" remote="github" revision="cm-10.1" />
   <project path="vendor/samsung" name="androidarmv6/android_vendor_samsung" remote="github" revision="cm-10.1" />
-  <project path="vendor/google" name="ParanoidAndroid-armv6/android_vendor_google" remote="github" revision="jellybean" />
-
 </manifest>
