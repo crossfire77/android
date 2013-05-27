@@ -370,9 +370,8 @@
   <project path="android" name="OpenMaclaw/android" remote="github" revision="jellybean"/>
 
   <!-- Device Sources -->
-  <project path="device/samsung/gio" name="ParanoidAndroid-armv6/android_device_samsung_gio" remote="github" revision="jellybean" />
   <project path="device/qcom/msm7x27" name="OpenMaclaw/android_device_qcom_msm7x27" remote="github" revision="cm-10.1" />
-  <project path="kernel/samsung/msm7x27" name="OpenMaclaw/kernel_samsung_gio" remote="github" revision="master" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" remote="github" revision="cm-10.1" />
   <project path="vendor/samsung" name="androidarmv6/android_vendor_samsung" remote="github" revision="cm-10.1" />
+  <project path="vendor/google" name="OpenMaclaw/android_vendor_google" remote="github" revision="jellybean" />
 </manifest>
