@@ -354,7 +354,6 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-10.1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
-  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" remote="github" revision="cm-10.1" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" remote="github" revision="cm-10.1" />
   <project path="vendor/pa" name="OpenMaclaw/android_vendor_pa" remote="github" revision="jellybean" />
 
@@ -366,7 +365,4 @@
   <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" remote="github" revision="jellybean" />
 
   <project path="android" name="OpenMaclaw/android" remote="github" revision="jellybean"/>
-
-  <!-- Device Sources -->
-  <project path="vendor/google" name="OpenMaclaw/android_vendor_google" remote="github" revision="jellybean" />
 </manifest>
