@@ -39,7 +39,6 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" remote="github" revision="cm-10.1" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" remote="github" revision="cm-10.1" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" remote="github" revision="cm-10.1" groups="device" />
-  <project path="device/mdpi-common" name="androidarmv6/android_device_mdpi-common" remote="github" revision="cm-10.1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" remote="github" revision="cm-10.1" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" remote="github" revision="cm-10.1" />
