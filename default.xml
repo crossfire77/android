@@ -13,6 +13,10 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
+  <remote  name="caf"
+           fetch="git://codeaurora.org/"
+           review="codeaurora.org" /> 
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -54,7 +58,10 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-10.1" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" remote="github" revision="cm-10.1" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" remote="github" revision="cm-10.1" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="github" revision="cm-10.1" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="caf" revision="jb_2.5" groups="default" /> 
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" remote="github" revision="cm-10.1" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.1"/>
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" remote="github" revision="cm-10.1" />
@@ -65,7 +72,7 @@
   <project path="external/cibu-fonts" name="CyanogenMod/android_external_cibu-fonts" remote="github" revision="cm-10.1" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="github" revision="cm-10.1" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" remote="github" revision="cm-10.1" />
-  <project path="external/dbus" name="CyanogenMod/android_external_dbus" remote="github" revision="cm-10.1" />
+  <project path="external/dbus" name="androidarmv6/android_external_dbus" remote="github" revision="cm-10.1" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" remote="github" revision="cm-10.1" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" remote="github" revision="cm-10.1" />
   <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="github" revision="cm-10.1" />
@@ -260,7 +267,8 @@
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" remote="github" revision="cm-10.1" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="androidarmv6/android_packages_apps_Bluetooth" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/Bluetooth_msm" name="androidarmv6/android_packages_apps_Bluetooth_msm" remote="github" revision="cm-10.1" />
   <project path="packages/apps/Browser" name="ParanoidAndroid/android_packages_apps_Browser" remote="github" revision="jellybean" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Calendar" name="ParanoidAndroid/android_packages_apps_Calendar" remote="github" revision="jellybean" />
@@ -346,7 +354,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" remote="github" revision="cm-10.1" />
-  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" revision="cm-10.1" />
+  <project path="system/bluetooth" name="androidarmv6/android_system_bluetooth" remote="github" revision="cm-10.1" />
   <project path="system/core" name="OpenMaclaw/android_system_core" remote="github" revision="cm-10.1"  />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-10.1" />
   <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-10.1" />
